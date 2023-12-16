@@ -3,6 +3,7 @@ Feature: Validating the Home Page
   Background: 
     Given user is on roku homepage
 
+ @test
   Scenario: Verify the Roku Logo on home page
     When the page is loaded
     Then user should see the Roku Logo
@@ -17,10 +18,12 @@ Feature: Validating the Home Page
     And user click on sub menu - Roku OS
     And user should be redirected to the Roku OS page
 
+ @test
   Scenario: validating the signin navigation item on the home page
     When user clicks on signin
     Then the page should be redirected to the sign in page
     
+   @test
   Scenario: validating the cart symbol on the home page
     When user clicks on cart symbol
     Then the page should be directed to the checkout page
