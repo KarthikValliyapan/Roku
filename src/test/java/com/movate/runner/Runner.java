@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 							  dryRun = false,
 							  monochrome = false)
 	
-public class Test Runner
+public class TestRunner
 	{
 		
 	}
