@@ -1,4 +1,4 @@
-Feature: Validating the signin page
+#Feature: Validating the signin page
 
   Scenario Outline: validating the sign-in functionality with neagative scenarios
     Given user is on roku homepage

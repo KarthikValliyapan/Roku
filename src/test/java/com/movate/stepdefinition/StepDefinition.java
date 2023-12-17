@@ -1,10 +1,6 @@
 package com.movate.stepdefinition;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Assert;
-import org.junit.validator.ValidateWith;
-import org.openqa.selenium.WebElement;
 
 import com.movate.base.Base;
 import com.movate.pageexe.HomePageExe;
@@ -197,9 +193,6 @@ public class StepDefinition
 						
 					}
 			}
-		
-		
-	
 		
 		
 		

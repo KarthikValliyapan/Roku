@@ -3,8 +3,6 @@ package com.movate.pagelocators;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import com.movate.base.Base;
-
 public class SignInPageLocators extends HomePageLocators
 	{
 		public static WebElement getEmail()
