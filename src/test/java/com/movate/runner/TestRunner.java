@@ -10,7 +10,9 @@ import cucumber.api.junit.Cucumber;
 							  glue = "com.movate.stepdefinition",
 							  tags = "@test",
 							  dryRun = false,
-							  monochrome = false)
+							  monochrome = false,
+							  plugin = {"pretty", "json:target/cucumber-reports/Cucumber.json"}
+							  )
 	
 public class TestRunner
 	{
